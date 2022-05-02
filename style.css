@@ -1,0 +1,116 @@
+body {
+  font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  font-size: 16px;
+  flex-direction: column;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  height: 72px;
+  background: #1f2937;
+  padding: 10px 20%;
+}
+
+  ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 20px
+  }
+
+  a {
+    text-decoration: none;
+    color: #f9faf8;
+  }
+
+.upper-content {
+  display: flex;
+  flex-direction: row;
+  background: #1f2937;
+  color: #f9faf8;
+  justify-content: space-between;
+  padding: 20px 20% 30px 20%;
+  gap: 20px;
+}
+
+  .left-part {
+    display: flex;
+    flex-direction: column;
+    font-size: 48px; 
+    font-weight: 900;
+    max-width: 40%;
+    gap: 20px;
+  }
+
+    .left-part .text {
+      font-size: 16px;
+    }
+
+.middle-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #1f2937;
+  font-weight: 900;
+  font-size: 36px;
+  gap: 20px;
+}
+  .middle-images {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    gap: 30px;
+    margin-bottom: 100px
+
+  }
+    .text {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .image {
+      width: auto;
+      height: 250px;
+      border: 8px solid #3882f6;
+      border-radius: 10%;
+    }
+.quote {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #e5e7eb;
+  font-size: 36px;
+  font-style: italic;
+  color: #1f2937;
+  padding: 80px 20%;
+}
+  .quote .author {
+    font-size: 30px;
+    font-weight: bold;
+    align-self: end;
+  }
+
+
+.footer {
+  height: 72px;
+  display: flex;
+  flex-direction: row;
+  background: #eee;
+  color: rgb(105, 17, 105);
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+}
+
